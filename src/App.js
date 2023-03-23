@@ -1,29 +1,17 @@
-import './categories.styles.scss';
-import './components/category-menu/category-menu.component';
-import CategoryMenu from './components/category-menu/category-menu.component';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/routes/home/home.component';
+import Navigation from './components/routes/navigation/navigation.component';
+
 
 const App = () => {
 
-  const categories = [
-      {
-        "id": 1,
-        "title": "Women",
-        "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
-      },
-      {
-        "id": 2,
-        "title": "Men",
-        "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
-      },
-      {
-        "id": 3,
-        "title": "On Sale",
-        "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png"
-      }
-    ]
-
   return (
-    <CategoryMenu categories={categories} />
+    <Routes>
+      <Route path='/' element={<Navigation />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
+
   );
 }
 

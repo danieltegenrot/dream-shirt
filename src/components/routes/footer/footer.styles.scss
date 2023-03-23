@@ -1,0 +1,40 @@
+.footer {
+    padding: 0 6rem;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--primary-color);
+    align-items: center;
+    background-color: white;
+
+    .footer-contact {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 500;
+
+        .footer-contact-title {
+            font-size: 1.5rem;
+        }
+
+        .footer-contact-email {
+            font-size: 1rem;
+        }
+    }
+
+    .footer-slogan {
+        span {
+            font-family: 'Shrikhand', cursive;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+    }
+
+    .footer-address {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 500;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+}

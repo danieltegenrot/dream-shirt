@@ -1,6 +1,9 @@
 .categories-container {
-    width: 100%;
+    width: calc(100% - 12rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 6rem;
+    column-gap: 3rem;
   }

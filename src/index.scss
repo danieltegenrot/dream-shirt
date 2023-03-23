@@ -1,0 +1,27 @@
+:root {
+  font-size: 16px;
+  --primary-color: #218270;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  h2, h3, p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 3.5rem;
+    margin-left: 6rem;
+    margin-top: 9rem;
+  }
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
