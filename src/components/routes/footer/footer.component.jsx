@@ -11,7 +11,7 @@ const Footer = () => {
                 <span>Shirts that talk</span>
             </div>
             <div className="footer-address">
-                <p className="footer-address-street">Dream Street 12</p>
+                <p className="footer-address-street">Drömgatan 12</p>
                 <p>-</p>
                 <p className="footer-adsress-post-number">165 65</p>
                 <p>-</p>
