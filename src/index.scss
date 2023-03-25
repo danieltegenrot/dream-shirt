@@ -3,10 +3,16 @@
   --primary-color: #218270;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  min-height: calc(100vh - 9rem);
 
   h2, h3, p {
     font-family: 'Montserrat', sans-serif;
