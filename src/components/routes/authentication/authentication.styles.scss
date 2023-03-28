@@ -1,0 +1,39 @@
+.sign-in-container {
+    padding-bottom: 9rem;
+    width: calc(100% - 12rem);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 6rem;
+
+    form {
+        max-width: 25rem;
+
+        label {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        input {
+            width: 100%;
+            height: 3rem;
+            border: 2px solid var(--primary-color);
+            border-radius: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+
+    h2 {
+        font-family: 'Shrikhand', cursive;
+        font-size: 3.5rem;
+        margin-top: 9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-family: 'Montserrat', cursive;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
